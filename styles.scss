@@ -1,6 +1,5 @@
 // Variables
 $gradient: linear-gradient(25.53deg, #0ba5ec 24.12%, #2e3192 95.96%);
-$primary-font: "Inter";
 $gray: #667085;
 $blue: #1570ef;
 
@@ -11,10 +10,14 @@ header {
     display: flex;
     align-items: center;
 
+    .claim-info {
+      color: $gray;
+    }
+
     .allegiant-logo-wrapper {
       margin-right: 15px;
       .main-logo {
-        width: 200px;
+        width: 150px;
         margin-right: 10px;
       }
     }
@@ -39,8 +42,10 @@ header {
 }
 
 main {
+  margin-top: 1rem;
   .form-wrapper {
     margin-right: 3rem;
+    margin-top: 1rem;
   }
   .gradient-side {
     color: white;
@@ -50,7 +55,6 @@ main {
   }
 
   .gradient-headline {
-    font-family: $primary-font;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -58,7 +62,6 @@ main {
   }
 
   .bullets .question {
-    font-family: $primary-font;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
