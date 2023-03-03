@@ -16,30 +16,21 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>Allegiant Landing page</title>
   </head>
   <body>
     <div class="py-3">
       <header>
-        <div
-          class=""
-          style="
-            margin-top: 20px;
-            margin-left: 1rem;
-            display: flex;
-            align-items: center;
-          "
-        >
-          <div style="margin-right: 15px">
+        <div class="header-container">
+          <div class="allegiant-logo-wrapper">
             <img
               src="https://allegiant.co.uk/wp-content/uploads/2021/09/logo.png"
               alt="logo"
               class="main-logo"
-              style="margin-right: 10px"
             />
           </div>
 
-          <nav class="d-inline-flex mt-2" style="margin-right: 2rem">
+          <nav class="d-inline-flex mt-2">
             <div class="card claim-info">
               <div class="card-body">
                 <div class="d-flex justify-content-between">
@@ -49,7 +40,7 @@
                   </div>
                   <div class="minimize-info">I've read please minimize</div>
                 </div>
-                <span style="font-size: 10px; display: inline-table">
+                <span class="good-to-know-txt">
                   <strong>Good to know: </strong> You do not need to use a
                   claims management compnay to make your complaint to your
                   lender, bacnk, pension provider or intermidiaryl. If your
@@ -65,11 +56,11 @@
         </div>
       </header>
 
-      <main>
-        <div class="mt-4" style="margin-left: 4rem">
+      <main style="margin-left: 4rem">
+        <div>
           <div class="row">
             <div class="col">
-              <div class="mb-3" style="margin-right: 3rem">
+              <div class="mb-3 form-wrapper">
                 <h3>Your Details</h3>
                 <br />
                 <span
@@ -98,9 +89,8 @@
                 >
                 <input type="password" class="form-control" id="pass2" />
                 <button
-                  style="width: 100%; background: #2e90fa"
                   type="button"
-                  class="btn btn-primary mt-4"
+                  class="btn btn-primary mt-4 to-dashboard-btn"
                 >
                   Continue to Dashboard
                 </button>
@@ -115,7 +105,9 @@
                     style="margin-left: 10px; margin-right: 10px"
                     src="assets/rate.jpg"
                   />
-                  <span style="margin-right: 10px">20,934 reviews on</span>
+                  <span class="white-space-nowrap" class="review-number-txt"
+                    >20,934 reviews on</span
+                  >
                   <img
                     width="100px"
                     class="ml-2"
@@ -169,10 +161,7 @@
 
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
-          <div
-            class="text-center footer-txt"
-            style="padding-right: 4rem; padding-left: 4rem"
-          >
+          <div class="text-center footer-txt">
             <span>
               Allegiant Finance Services Limited is a Claims Management Company
               that is Authorised and Regulated by the Financial Conduct

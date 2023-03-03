@@ -1,46 +1,94 @@
-.main-logo {
-  width: 200px;
+// Variables
+$gradient: linear-gradient(25.53deg, #0ba5ec 24.12%, #2e3192 95.96%);
+$primary-font: "Inter";
+$gray: #667085;
+$blue: #1570ef;
+
+header {
+  .header-container {
+    margin-top: 20px;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+
+    .allegiant-logo-wrapper {
+      margin-right: 15px;
+      .main-logo {
+        width: 200px;
+        margin-right: 10px;
+      }
+    }
+    nav {
+      margin-right: 2rem;
+    }
+
+    .minimize-info {
+      background: #d1e9ff;
+      padding: 9px;
+      display: flex;
+      border-radius: 6px;
+      font-weight: 500;
+      color: $blue;
+    }
+
+    .good-to-know-txt {
+      font-size: 10px;
+      display: inline-table;
+    }
+  }
 }
 
-.minimize-info {
-  background: #d1e9ff;
-  padding: 9px;
-  display: flex;
-  border-radius: 6px;
-  color: #1570ef;
-  font-weight: 500;
-}
+main {
+  .form-wrapper {
+    margin-right: 3rem;
+  }
+  .gradient-side {
+    color: white;
+    font-weight: 400;
+    padding: 60px;
+    background: $gradient;
+  }
 
-.gradient-side {
-  color: white;
-  font-weight: 400;
-  background-color: rgb(20, 38, 69);
-  padding: 60px;
-  background: linear-gradient(25.53deg, #0ba5ec 24.12%, #2e3192 95.96%);
-}
+  .gradient-headline {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
 
-.gradient-headline {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-}
+  .bullets .question {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
 
-.bullets .question {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
+  .to-dashboard-btn {
+    width: 100%;
+    background: #2e90fa;
+  }
+
+  .review-number-txt {
+    margin-right: 10px;
+  }
 }
 
 .footer-txt {
-  color: #667085;
+  color: $gray;
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 
 @media screen and (max-width: 770px) {
   .claim-info {
     display: none;
   }
+}
+
+// Util classes
+
+.white-space-nowrap {
+  white-space: nowrap;
 }
