@@ -1,0 +1,48 @@
+.main-logo {
+  width: 200px;
+}
+
+.minimize-info {
+  background: #d1e9ff;
+  padding: 9px;
+  display: flex;
+  border-radius: 6px;
+  color: #1570ef;
+  font-weight: 500;
+}
+
+.gradient-side {
+  color: white;
+  font-weight: 400;
+  background-color: rgb(20, 38, 69);
+  padding: 60px;
+  background: linear-gradient(25.53deg, #0ba5ec 24.12%, #2e3192 95.96%);
+}
+
+.gradient-headline {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.bullets .question {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer-txt {
+  color: #667085;
+}
+
+@media screen and (max-width: 770px) {
+  .claim-info {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
