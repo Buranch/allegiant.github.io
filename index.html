@@ -19,164 +19,172 @@
     <title>Allegiant Landing page</title>
   </head>
   <body>
-    <div>
-      <header>
-        <div class="header-container">
-          <div class="allegiant-logo-wrapper">
+    <header>
+      <nav
+        class="navbar navbar-expand-md navbar-light fixed-top bg-white header-container"
+      >
+        <div class="container-fluid">
+          <div class="header-container allegiant-logo-wrapper">
             <img
+              width="150px"
               src="https://allegiant.co.uk/wp-content/uploads/2021/09/logo.png"
               alt="logo"
               class="main-logo"
             />
           </div>
 
-          <nav class="d-inline-flex mt-2">
-            <div class="card claim-info">
-              <div class="card-body">
-                <div class="d-flex justify-content-between">
-                  <div>
-                    <img src="assets/Icon.png" />
-                    <span> Claiming for Fee Yourself</span>
-                  </div>
-                  <div class="minimize-info">I've read please minimize</div>
+          <div class="card claim-info">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <img src="assets/Icon.png" />
+                  <span> Claiming for Fee Yourself</span>
                 </div>
-                <span class="good-to-know-txt">
-                  <strong>Good to know: </strong> You do not need to use a
-                  claims management compnay to make your complaint to your
-                  lender, bacnk, pension provider or intermidiaryl. If your
-                  complpain is not successful you can refer it to the Financial
-                  Ombudsman Service or the Pension Ombudsman yourself for free
-                  if the firm is is still tranding. For eligible failed firms,
-                  you can refer a claim to the Financial Services Compensation
-                  Scheme for free.
-                </span>
+                <div class="minimize-info">I've read please minimize</div>
               </div>
-            </div>
-          </nav>
-        </div>
-      </header>
-
-      <main style="margin-left: 4rem">
-        <div>
-          <div class="row">
-            <div class="col">
-              <div class="mb-3 form-wrapper">
-                <h3>Your Details</h3>
-                <br />
-                <span
-                  >Please provide your mobile phone number and create a password
-                  and we'll get you straight to your new dashboard.</span
-                >
-                <br />
-                <br />
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Mobile phone number</label
-                >
-                <input
-                  type="phone"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="Enter your phone number"
-                />
-                <br />
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Password</label
-                >
-                <input type="password" class="form-control" id="pass1" />
-                <br />
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Confirm password</label
-                >
-                <input type="password" class="form-control" id="pass2" />
-                <button
-                  type="button"
-                  class="btn btn-primary mt-4 to-dashboard-btn"
-                >
-                  Continue to Dashboard
-                </button>
-
-                <hr class="mt-5" />
-                <div
-                  class="d-flex justify-content-center align-items-center mt-2"
-                >
-                  <span>Excellent</span>
-                  <img
-                    width="100px"
-                    style="margin-left: 10px; margin-right: 10px"
-                    src="assets/rate.jpg"
-                  />
-                  <span class="white-space-nowrap" class="review-number-txt"
-                    >20,934 reviews on</span
-                  >
-                  <img
-                    width="100px"
-                    class="ml-2"
-                    src="assets/Trustpilot_Logo_(2022).svg"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="col gradient-side"
-              style="background-color: rgb(20, 38, 69)"
-            >
-              <span class="gradient-headline"
-                >This is some reinforcing information about the product and why
-                the user should continue. Aenean euismod bibendum laoreet. Proin
-                gravida dolor sit amet lacus accumsan et viverra justo commodo.
+              <span class="good-to-know-txt">
+                <strong>Good to know: </strong> You do not need to use a claims
+                management company to make your complaint to your lender, bank,
+                pension provider or intermediary. If your complaint is not
+                successful you can refer it to the Financial Ombudsman Service
+                or the Pension Ombudsman yourself for free if the firm is still
+                trading. For eligible failed firms, you can refer a claim to the
+                Financial Services Compensation Scheme for free.
               </span>
+            </div>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse"></div>
+        </div>
+      </nav>
+    </header>
+    <main style="margin-left: 4rem">
+      <div>
+        <div class="row">
+          <div class="col">
+            <div class="mb-3 form-wrapper">
+              <h3>Your Details</h3>
+              <br />
+              <span
+                >Please provide your mobile phone number and create a password
+                and we'll get you straight to your new dashboard.</span
+              >
+              <br />
+              <br />
+              <label for="exampleFormControlInput1" class="form-label"
+                >Mobile phone number</label
+              >
+              <input
+                type="phone"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Enter your phone number"
+              />
+              <br />
+              <label for="exampleFormControlInput1" class="form-label"
+                >Password</label
+              >
+              <input type="password" class="form-control" id="pass1" />
+              <br />
+              <label for="exampleFormControlInput1" class="form-label"
+                >Confirm password</label
+              >
+              <input type="password" class="form-control" id="pass2" />
+              <button
+                type="button"
+                class="btn btn-primary mt-4 to-dashboard-btn"
+              >
+                Continue to Dashboard
+              </button>
 
-              <div class="row mt-4 bullets">
-                <span>
-                  <img
-                    width="48px"
-                    class="mr-2 mb-2"
-                    src="assets/Featured-icon.png"
-                  />
-                  <span class="question">Is there a free trial available?</span>
-                </span>
-                <span>
-                  <img
-                    width="48px"
-                    class="mr-2 mb-2"
-                    src="assets/Featured-icon.png"
-                  />
-                  <span class="question">Can I change my plan later?</span>
-                </span>
-                <span>
-                  <img
-                    width="48px"
-                    class="mr-2 mb-2"
-                    src="assets/Featured-icon.png"
-                  />
-                  <span class="question"
-                    >What is your cancellation policy?</span
-                  >
-                </span>
+              <hr class="mt-5" />
+              <div
+                class="d-flex justify-content-center align-items-center mt-2"
+              >
+                <span>Excellent</span>
+                <img
+                  width="100px"
+                  style="margin-left: 10px; margin-right: 10px"
+                  src="assets/rate.jpg"
+                />
+                <span class="white-space-nowrap" class="review-number-txt"
+                  >20,934 reviews on</span
+                >
+                <img
+                  width="100px"
+                  class="ml-2"
+                  src="assets/Trustpilot_Logo_(2022).svg"
+                />
               </div>
             </div>
           </div>
-        </div>
-      </main>
-
-      <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="row">
-          <div class="text-center footer-txt">
-            <span>
-              Allegiant Finance Services Limited is a Claims Management Company
-              that is Authorised and Regulated by the Financial Conduct
-              Authority. Firm Reference Number: 836810. Registered with the
-              Information Commissioners Office: Z2569335. VAT Registration No.
-              274837662.
+          <div
+            class="col gradient-side"
+            style="background-color: rgb(20, 38, 69)"
+          >
+            <span class="gradient-headline"
+              >This is some reinforcing information about the product and why
+              the user should continue. Aenean euismod bibendum laoreet. Proin
+              gravida dolor sit amet lacus accumsan et viverra justo commodo.
             </span>
-            <br />
-            <p class="mt-4">
-              Need help? Call us on 0345 544 1563 (all calls are recorded for
-              training and monitoring purposes)
-            </p>
+
+            <div class="row mt-4 bullets">
+              <span>
+                <img
+                  width="48px"
+                  class="mr-2 mb-2"
+                  src="assets/Featured-icon.png"
+                />
+                <span class="question">Is there a free trial available?</span>
+              </span>
+              <span>
+                <img
+                  width="48px"
+                  class="mr-2 mb-2"
+                  src="assets/Featured-icon.png"
+                />
+                <span class="question">Can I change my plan later?</span>
+              </span>
+              <span>
+                <img
+                  width="48px"
+                  class="mr-2 mb-2"
+                  src="assets/Featured-icon.png"
+                />
+                <span class="question">What is your cancellation policy?</span>
+              </span>
+            </div>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </main>
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="row">
+        <div class="text-center footer-txt">
+          <span>
+            Allegiant Finance Services Limited is a Claims Management Company
+            that is Authorised and Regulated by the Financial Conduct Authority.
+            Firm Reference Number: 836810. Registered with the Information
+            Commissioners Office: Z2569335. VAT Registration No. 274837662.
+          </span>
+          <br />
+          <p class="mt-4">
+            Need help? Call us on 0345 544 1563 (all calls are recorded for
+            training and monitoring purposes)
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -3,9 +3,12 @@ $gradient: linear-gradient(25.53deg, #0ba5ec 24.12%, #2e3192 95.96%);
 $gray: #667085;
 $blue: #1570ef;
 
+body {
+  padding-top: 120px;
+}
+
 header {
   .header-container {
-    margin-top: 20px;
     margin-left: 1rem;
     display: flex;
     align-items: center;
@@ -63,7 +66,7 @@ main {
 
   .bullets .question {
     font-style: normal;
-    font-weight: 500;
+    font-weight: 200;
     font-size: 20px;
     line-height: 30px;
   }
@@ -85,6 +88,10 @@ main {
 }
 
 @media screen and (max-width: 770px) {
+  body {
+    padding-top: 50px;
+  }
+
   .claim-info {
     display: none;
   }
