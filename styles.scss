@@ -62,9 +62,20 @@ main {
     h3 {
       font-size: 30px;
     }
-
+    label {
+      font-size: 14px;
+    }
     .input-wrapper {
       margin-top: 16px;
+      span:first-child {
+        font-size: 18px;
+      }
+    }
+
+    .form-control {
+      height: 48px;
+      border: 1px solid #d0d5dd;
+      box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     }
   }
   .gradient-side {
@@ -86,11 +97,19 @@ main {
     font-weight: 200;
     font-size: 20px;
     line-height: 30px;
+    margin-left: 16px;
+  }
+
+  .bullets span {
+    margin-top: 30px;
   }
 
   .to-dashboard-btn {
     width: 100%;
+    border: 0;
+    height: 50px;
     background: #2e90fa;
+    border-radius: 8px;
   }
 
   .review-number-txt {

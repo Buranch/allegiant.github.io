@@ -52,8 +52,19 @@ main .form-wrapper {
 main .form-wrapper h3 {
   font-size: 30px;
 }
+main .form-wrapper label {
+  font-size: 14px;
+}
 main .form-wrapper .input-wrapper {
   margin-top: 16px;
+}
+main .form-wrapper .input-wrapper span:first-child {
+  font-size: 18px;
+}
+main .form-wrapper .form-control {
+  height: 48px;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 }
 main .gradient-side {
   color: white;
@@ -72,10 +83,17 @@ main .bullets .question {
   font-weight: 200;
   font-size: 20px;
   line-height: 30px;
+  margin-left: 16px;
+}
+main .bullets span {
+  margin-top: 30px;
 }
 main .to-dashboard-btn {
   width: 100%;
+  border: 0;
+  height: 50px;
   background: #2e90fa;
+  border-radius: 8px;
 }
 main .review-number-txt {
   margin-right: 10px;
