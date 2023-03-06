@@ -27,6 +27,10 @@ header {
 
     .claim-info {
       color: $gray;
+      .claim-title {
+        font-weight: 600;
+        margin-left: 12px;
+      }
     }
 
     .allegiant-logo-wrapper {

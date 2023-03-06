@@ -21,6 +21,10 @@ header .header-container .container-fluid {
 header .header-container .claim-info {
   color: #667085;
 }
+header .header-container .claim-info .claim-title {
+  font-weight: 600;
+  margin-left: 12px;
+}
 header .header-container .allegiant-logo-wrapper {
   margin-right: 15px;
 }
