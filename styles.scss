@@ -5,13 +5,21 @@ $blue: #1570ef;
 
 body {
   padding-top: 110px;
+  max-width: 1440px;
+  margin: auto;
 }
 
 header {
+  nav {
+    margin: auto;
+  }
   .header-container {
-    margin-left: 1rem;
     display: flex;
     align-items: center;
+
+    .container-fluid {
+      max-width: 1440px;
+    }
 
     .claim-info {
       color: $gray;
@@ -23,9 +31,6 @@ header {
         width: 150px;
         margin-right: 10px;
       }
-    }
-    nav {
-      margin-right: 2rem;
     }
 
     .minimize-info {

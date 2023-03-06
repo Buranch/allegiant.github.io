@@ -1,11 +1,18 @@
 body {
   padding-top: 110px;
+  max-width: 1440px;
+  margin: auto;
 }
 
+header nav {
+  margin: auto;
+}
 header .header-container {
-  margin-left: 1rem;
   display: flex;
   align-items: center;
+}
+header .header-container .container-fluid {
+  max-width: 1440px;
 }
 header .header-container .claim-info {
   color: #667085;
@@ -16,9 +23,6 @@ header .header-container .allegiant-logo-wrapper {
 header .header-container .allegiant-logo-wrapper .main-logo {
   width: 150px;
   margin-right: 10px;
-}
-header .header-container nav {
-  margin-right: 2rem;
 }
 header .header-container .minimize-info {
   background: #d1e9ff;
