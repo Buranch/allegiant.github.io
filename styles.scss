@@ -47,17 +47,25 @@ header {
     }
 
     .good-to-know-txt {
-      font-size: 10px;
+      font-size: 12px;
       display: inline-table;
     }
   }
 }
 
 main {
-  margin-top: 1rem;
+  margin-top: 29px;
   .form-wrapper {
+    margin-left: 10%;
     margin-right: 3rem;
-    margin-top: 1rem;
+    margin-top: 59px;
+    h3 {
+      font-size: 30px;
+    }
+
+    .input-wrapper {
+      margin-top: 16px;
+    }
   }
   .gradient-side {
     color: white;

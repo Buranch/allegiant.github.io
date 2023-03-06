@@ -37,16 +37,23 @@ header .header-container .minimize-info {
   color: #1570ef;
 }
 header .header-container .good-to-know-txt {
-  font-size: 10px;
+  font-size: 12px;
   display: inline-table;
 }
 
 main {
-  margin-top: 1rem;
+  margin-top: 29px;
 }
 main .form-wrapper {
+  margin-left: 10%;
   margin-right: 3rem;
-  margin-top: 1rem;
+  margin-top: 59px;
+}
+main .form-wrapper h3 {
+  font-size: 30px;
+}
+main .form-wrapper .input-wrapper {
+  margin-top: 16px;
 }
 main .gradient-side {
   color: white;
