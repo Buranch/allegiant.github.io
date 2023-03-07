@@ -116,6 +116,9 @@ main .review-number-txt {
   .claim-info {
     display: none;
   }
+  .gradient-side {
+    margin: 6%;
+  }
 }
 .white-space-nowrap {
   white-space: nowrap;
