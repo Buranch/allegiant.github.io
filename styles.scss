@@ -26,6 +26,8 @@ header {
     .container-fluid-1 {
       display: flex;
       flex: 1;
+      margin-right: 28px;
+      padding-left: 26px;
     }
 
     .claim-info {
@@ -135,6 +137,10 @@ main {
 @media screen and (max-width: 770px) {
   body {
     padding-top: 50px;
+  }
+
+  div.allegiant-logo-wrapper {
+    margin-top: 8px!important;
   }
 
   .claim-info {
