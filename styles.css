@@ -4,8 +4,10 @@
 
 body {
   padding-top: 110px;
-  max-width: 2000px;
-  margin: auto;
+}
+
+.flex-1 {
+  flex: 1;
 }
 
 header nav {
@@ -14,9 +16,11 @@ header nav {
 header .header-container {
   display: flex;
   align-items: center;
+  margin: auto;
 }
-header .header-container .container-fluid {
-  max-width: 2000px;
+header .header-container .container-fluid-1 {
+  display: flex;
+  flex: 1;
 }
 header .header-container .claim-info {
   color: #667085;
@@ -47,6 +51,8 @@ header .header-container .good-to-know-txt {
 
 main {
   margin-top: 29px;
+  max-width: 1440px;
+  margin: auto;
 }
 main .form-wrapper {
   margin-left: 10%;
