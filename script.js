@@ -1,5 +1,5 @@
 $(document).ready(function () {
   $("#minimize-btn").click(() => {
-    $("#minimize-btn").css("visibility", "hidden");
+    $(".claim-info").css("visibility", "hidden");
   });
 });
