@@ -8,6 +8,10 @@
     <script src="script.js"></script>
     <link
       rel="stylesheet"
+      href="//use.fontawesome.com/releases/v6.3.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Inter"
     />
     <link
@@ -46,7 +50,9 @@
                   <img src="assets/Icon.png" />
                   <span class="claim-title"> Claiming for Fee Yourself</span>
                 </div>
-                <div class="minimize-info" id="minimize-btn">I've read please minimize</div>
+                <div class="minimize-info" id="minimize-btn">
+                  I've read please minimize
+                </div>
               </div>
               <span class="good-to-know-txt">
                 <strong>Good to know: </strong> You do not need to use a claims
@@ -70,7 +76,11 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div style="flex: 0.02" class="collapse navbar-collapse" id="navbarCollapse"></div>
+          <div
+            style="flex: 0.02"
+            class="collapse navbar-collapse"
+            id="navbarCollapse"
+          ></div>
         </div>
       </nav>
     </header>
@@ -86,28 +96,42 @@
                   and we'll get you straight to your new dashboard.</span
                 >
                 <br />
-                <label
-                  style="margin-top: 24px"
-                  for="exampleFormControlInput1"
-                  class="form-label"
-                  >Mobile phone number</label
-                >
-                <input
-                  type="phone"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="Enter your phone number"
-                />
-                <br />
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Enter Password</label
-                >
-                <input type="password" class="form-control" id="pass1" />
-                <br />
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Re-type password</label
-                >
-                <input type="password" class="form-control" id="pass2" />
+                <div class="form-group">
+                  <label
+                    style="margin-top: 24px"
+                    for="exampleFormControlInput1"
+                    class="form-label"
+                    >Mobile phone number</label
+                  >
+                  <input
+                    type="phone"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Enter your phone number"
+                  />
+                  <br />
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Enter Password</label
+                  >
+                  <div class="input-group">
+                    <input type="password" class="form-control" id="pass1" />
+                    <div class="input-group-addon">
+                      <span id="show-password-toggle">
+                        <i class="fa-solid fa-eye" id="pass1-visible-eye"></i>
+                        <i
+                          class="fa-solid fa-eye-low-vision"
+                          style="display: none"
+                          id="pass1-hidden-eye"
+                        ></i>
+                      </span>
+                    </div>
+                  </div>
+                  <br />
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Re-type password</label
+                  >
+                  <input type="password" class="form-control" id="pass2" />
+                </div>
               </div>
 
               <button

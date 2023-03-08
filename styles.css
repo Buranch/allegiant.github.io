@@ -73,6 +73,16 @@ main .form-wrapper .input-wrapper {
 main .form-wrapper .input-wrapper span:first-child {
   font-size: 18px;
 }
+main .form-wrapper .input-wrapper #pass1 {
+  border-right: 0;
+}
+main .form-wrapper .input-wrapper .input-group-addon {
+  align-items: center;
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 1px solid #d0d5dd;
+}
 main .form-wrapper .form-control {
   height: 48px;
   border: 1px solid #d0d5dd;
