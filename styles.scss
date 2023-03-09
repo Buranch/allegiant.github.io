@@ -25,13 +25,16 @@ header {
     margin: auto;
     .container-fluid-1 {
       display: flex;
-      flex: 1;
+      width: 100%;
       margin-right: 28px;
       padding-left: 26px;
     }
 
     .claim-info {
       color: $gray;
+      flex: 10;
+      align-self: center;
+      margin-top: 9px;
       .claim-title {
         font-weight: 600;
         margin-left: 12px;
@@ -40,6 +43,8 @@ header {
 
     .allegiant-logo-wrapper {
       margin-right: 15px;
+      margin-top: 24px;
+      height: 67px;
       .main-logo {
         width: 150px;
         margin-right: 10px;
@@ -53,6 +58,7 @@ header {
       border-radius: 6px;
       font-weight: 500;
       color: $blue;
+      cursor: pointer;
     }
 
     .good-to-know-txt {
@@ -150,7 +156,7 @@ main {
   }
 
   div.allegiant-logo-wrapper {
-    margin-top: 8px!important;
+    margin-top: 8px !important;
   }
 
   .claim-info {

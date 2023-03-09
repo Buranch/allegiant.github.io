@@ -13,7 +13,14 @@ $(document).ready(function () {
   }
 
   $("#minimize-btn").click(() => {
-    $(".claim-info").css("visibility", "hidden");
+    let display = $(".good-to-know-txt").css("display");
+    if (display == "none") {
+      $(".good-to-know-txt").css("display", "inline");
+      $(".minimize-info").html(`I've read please minimize`);
+    } else {
+      $(".good-to-know-txt").css("display", "none");
+      $(".minimize-info").html(`Open`);
+    }
   });
 
   $("#show-password-toggle").click(() => {
