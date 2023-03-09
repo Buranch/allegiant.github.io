@@ -133,6 +133,10 @@ main .review-number-txt {
   padding-left: 4rem;
 }
 
+.navbar-toggler {
+  visibility: hidden !important;
+}
+
 @media screen and (max-width: 770px) {
   body {
     padding-top: 50px;
@@ -145,6 +149,9 @@ main .review-number-txt {
   }
   .gradient-side {
     margin: 6%;
+  }
+  .navbar-toggler {
+    visibility: hidden !important;
   }
 }
 .white-space-nowrap {
