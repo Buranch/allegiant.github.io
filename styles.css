@@ -43,7 +43,12 @@ header .header-container .allegiant-logo-wrapper .main-logo {
   width: 150px;
   margin-right: 10px;
 }
-header .header-container .minimize-info {
+header .header-container .good-to-know-txt {
+  font-size: 12px;
+  display: inline-table;
+}
+
+.minimize-info {
   background: #d1e9ff;
   padding: 9px;
   display: flex;
@@ -51,10 +56,6 @@ header .header-container .minimize-info {
   font-weight: 500;
   color: #1570ef;
   cursor: pointer;
-}
-header .header-container .good-to-know-txt {
-  font-size: 12px;
-  display: inline-table;
 }
 
 main {
@@ -137,6 +138,27 @@ main .review-number-txt {
   visibility: hidden !important;
 }
 
+.bottom-tray {
+  display: none;
+  transform: translateY(100%);
+  transition: 0.3s all;
+}
+
+.bottom-tray.bottom-tray-show {
+  transform: translateY(0);
+}
+
+.bottom-tray-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-tray-content {
+  display: block;
+  padding: 15px 0 0 0;
+}
+
 @media screen and (max-width: 770px) {
   body {
     padding-top: 50px;
@@ -153,9 +175,23 @@ main .review-number-txt {
   .navbar-toggler {
     visibility: hidden !important;
   }
+  .bottom-tray {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1002;
+    background: #2e90fa;
+    position: fixed;
+    padding: 15px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px -1px 10px -1px;
+  }
   .rating-wrapper {
     flex-direction: column;
     gap: 10px;
+  }
+  .bottom-tray {
+    display: block;
   }
 }
 .white-space-nowrap {

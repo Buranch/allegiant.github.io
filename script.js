@@ -12,7 +12,7 @@ $(document).ready(function () {
     }
   }
 
-  $("#minimize-btn").click(() => {
+  $(".minimize-btn").click(() => {
     let display = $(".good-to-know-txt").css("display");
     if (display == "none") {
       $(".good-to-know-txt").css("display", "inline");
