@@ -153,6 +153,10 @@ main .review-number-txt {
   .navbar-toggler {
     visibility: hidden !important;
   }
+  .rating-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 .white-space-nowrap {
   white-space: nowrap;
