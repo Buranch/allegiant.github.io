@@ -194,8 +194,14 @@ main {
     display: none;
   }
 
-  .gradient-side {
-    margin: 6%;
+  main {
+    .gradient-side {
+      margin: 6%;
+      padding: 20px;
+    }
+    .bullets .question {
+      font-size: 16px;
+    }
   }
 
   .navbar-toggler {

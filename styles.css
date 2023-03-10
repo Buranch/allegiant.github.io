@@ -176,8 +176,12 @@ main .review-number-txt {
   .claim-info {
     display: none;
   }
-  .gradient-side {
+  main .gradient-side {
     margin: 6%;
+    padding: 20px;
+  }
+  main .bullets .question {
+    font-size: 16px;
   }
   .navbar-toggler {
     visibility: hidden !important;
