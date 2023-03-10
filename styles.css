@@ -136,6 +136,9 @@ main .review-number-txt {
   color: #667085;
   padding-right: 4rem;
   padding-left: 4rem;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 .navbar-toggler {
