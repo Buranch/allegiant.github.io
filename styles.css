@@ -176,6 +176,10 @@ main .review-number-txt {
   .claim-info {
     display: none;
   }
+  main .gradient-headline {
+    font-size: 16px;
+    line-height: 24px;
+  }
   main .gradient-side {
     margin: 6%;
     padding: 20px;
@@ -207,6 +211,29 @@ main .review-number-txt {
 }
 .white-space-nowrap {
   white-space: nowrap;
+}
+
+@media (min-width: 776px) and (max-width: 1065px) {
+  header .header-container .good-to-know-txt {
+    font-size: 10px;
+  }
+  body {
+    padding-top: 150px;
+  }
+  body.non-collapsed-claim {
+    padding-top: 110px;
+  }
+  main .gradient-headline {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  main .bullets .question {
+    font-size: 15px;
+  }
+  .rating-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

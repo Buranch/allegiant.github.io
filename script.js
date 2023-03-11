@@ -17,9 +17,12 @@ $(document).ready(function () {
     if (display == "none") {
       $(".good-to-know-txt").css("display", "inline");
       $(".minimize-info").html(`I've read please minimize`);
+      $("body").removeClass("non-collapsed-claim");
     } else {
       $(".good-to-know-txt").css("display", "none");
       $(".minimize-info").html(`Open`);
+      $("body").addClass("non-collapsed-claim");
+
     }
   });
 
