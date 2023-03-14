@@ -168,6 +168,11 @@ main .review-number-txt {
   padding: 15px 0 0 0;
 }
 
+@media screen and (max-width: 700px) {
+  main .gradient-side {
+    padding: 20px;
+  }
+}
 @media screen and (max-width: 770px) {
   body {
     padding-top: 50px;
@@ -183,7 +188,6 @@ main .review-number-txt {
     line-height: 24px;
   }
   main .gradient-side {
-    padding: 20px;
     margin-left: 16px;
     margin-right: 16px;
   }
@@ -216,7 +220,7 @@ main .review-number-txt {
   white-space: nowrap;
 }
 
-@media (min-width: 776px) and (max-width: 1065px) {
+@media (min-width: 750px) and (max-width: 1065px) {
   header .header-container .good-to-know-txt {
     font-size: 10px;
   }

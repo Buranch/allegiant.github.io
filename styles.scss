@@ -132,9 +132,9 @@ main {
   }
 
   .bullets .question-wrapper {
-      display: flex;
-      align-items: center;
-      margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
   }
 
   .to-dashboard-btn {
@@ -183,6 +183,12 @@ main {
   padding: 15px 0 0 0;
 }
 
+@media screen and (max-width: 700px) {
+  main .gradient-side {
+    padding: 20px;
+  }
+}
+
 @media screen and (max-width: 770px) {
   body {
     padding-top: 50px;
@@ -203,7 +209,7 @@ main {
     }
 
     .gradient-side {
-      padding: 20px;
+      // padding: 20px;
       margin-left: 16px;
       margin-right: 16px;
     }
@@ -244,7 +250,7 @@ main {
 }
 
 // Tablet View
-@media (min-width: 776px) and (max-width: 1065px) {
+@media (min-width: 750px) and (max-width: 1065px) {
   header .header-container .good-to-know-txt {
     font-size: 10px;
   }
