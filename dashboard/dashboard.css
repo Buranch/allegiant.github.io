@@ -6,4 +6,19 @@ input {
   color: #667085 !important;
 }
 
+.header-container {
+  height: 80px;
+  border-bottom: 1px solid gray;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+@media screen and (max-width: 770px) {
+  .user-name-txt {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=dashboard.css.map */
