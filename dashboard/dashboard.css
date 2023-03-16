@@ -74,9 +74,22 @@ input {
   top: 0;
 }
 
+#open-side-nav {
+  display: none;
+  border: 0;
+}
+
 @media screen and (max-width: 770px) {
   .user-name-txt {
     display: none;
+  }
+}
+@media (min-width: 750px) and (max-width: 1060px) {
+  #open-side-nav {
+    display: inline;
+  }
+  .sidebar {
+    display: none !important;
   }
 }
 

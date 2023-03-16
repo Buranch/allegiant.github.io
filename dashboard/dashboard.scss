@@ -80,6 +80,10 @@ input {
   top: 0;
 }
 
+#open-side-nav {
+  display: none;
+  border: 0;
+}
 // Mobile
 @media screen and (max-width: 770px) {
   .user-name-txt {
@@ -88,5 +92,11 @@ input {
 }
 
 // Tablet
-@media (min-width: 750px) and (max-width: 1065px) {
+@media (min-width: 750px) and (max-width: 1060px) {
+  #open-side-nav {
+    display: inline;
+  }
+  .sidebar {
+    display: none !important;
+  }
 }
