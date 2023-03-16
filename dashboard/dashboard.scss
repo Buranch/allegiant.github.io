@@ -33,7 +33,8 @@ input {
 
 .sidebar {
   position: fixed;
-  top: 0;
+  top: 80px;
+  background: $gradient;
   bottom: 0;
   left: 0;
   z-index: 100;
@@ -46,12 +47,37 @@ input {
 }
 
 .bottom-tray {
+  position: fixed;
+  bottom: 0;
+  z-index: 110;
+  background: white;
   //   transform: translateY(100%);
   transition: 0.3s all;
+  padding-top: 18px;
 }
 
 .bottom-tray.bottom-tray-show {
   transform: translateY(0);
+}
+
+.footer-txt {
+  color: #667085;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.modal-dialog {
+  position: fixed;
+  right: 0;
+  margin: 0;
+}
+
+.modal-content {
+  height: 100vh;
+  top: 0;
 }
 
 // Mobile
