@@ -2,6 +2,14 @@
   font-family: "Inter";
 }
 
+body {
+  padding-top: 80px;
+}
+
+main {
+  display: flex;
+}
+
 input {
   color: #667085 !important;
 }
@@ -11,8 +19,33 @@ input {
   border-bottom: 1px solid gray;
 }
 
+.side-nav {
+  background: linear-gradient(25.53deg, #0ba5ec 24.12%, #2e3192 95.96%);
+  height: 800px;
+  width: 280px;
+  color: white;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
 .flex-1 {
   flex: 1;
+}
+
+.bottom-tray {
+  transition: 0.3s all;
+}
+
+.bottom-tray.bottom-tray-show {
+  transform: translateY(0);
 }
 
 @media screen and (max-width: 770px) {

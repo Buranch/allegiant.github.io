@@ -7,6 +7,14 @@ $blue: #1570ef;
   font-family: "Inter";
 }
 
+body {
+  padding-top: 80px;
+}
+
+main {
+  display: flex;
+}
+
 input {
   color: #667085 !important;
 }
@@ -16,15 +24,41 @@ input {
   border-bottom: 1px solid gray;
 }
 
+.side-nav {
+  background: $gradient;
+  height: 800px;
+  width: 280px;
+  color: white;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgb(0 0 0 / 10%);
+}
+
 .flex-1 {
   flex: 1;
 }
 
+.bottom-tray {
+  //   transform: translateY(100%);
+  transition: 0.3s all;
+}
+
+.bottom-tray.bottom-tray-show {
+  transform: translateY(0);
+}
+
 // Mobile
 @media screen and (max-width: 770px) {
-    .user-name-txt {
-        display: none;
-    }
+  .user-name-txt {
+    display: none;
+  }
 }
 
 // Tablet
