@@ -1,0 +1,24 @@
+// Variables
+$gradient: linear-gradient(25.53deg, #0ba5ec 24.12%, #2e3192 95.96%);
+$gray: #667085;
+$blue: #1570ef;
+
+* {
+  font-family: "Inter";
+}
+
+input {
+    color: #667085 !important;
+  }
+  
+
+// Mobile 
+@media screen and (max-width: 770px) {
+
+}
+
+// Tablet 
+@media (min-width: 750px) and (max-width: 1065px) {
+
+}
+
