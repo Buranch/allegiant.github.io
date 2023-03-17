@@ -98,6 +98,14 @@ input {
   display: block;
 }
 
+.gradient-side {
+  color: white;
+  font-weight: 400;
+  padding: 60px;
+  background: linear-gradient(25.53deg, #0ba5ec 24.12%, #2e3192 95.96%);
+  height: 80vh;
+}
+
 @media screen and (max-width: 770px) {
   .user-name-txt {
     display: none;
