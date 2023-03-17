@@ -85,6 +85,27 @@ input {
   display: none;
   border: 0;
 }
+
+.card-wrapper {
+  padding: 18px;
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card-body {
+    padding: 25px;
+
+    .card-title {
+      margin-left: 11px;
+    }
+    .card-txt {
+      margin-left: 54px;
+      display: block;
+    }
+  }
+}
+
 // Mobile
 @media screen and (max-width: 770px) {
   .user-name-txt {
@@ -93,7 +114,7 @@ input {
 }
 
 // Tablet
-@media (min-width: 750px) and (max-width: 1060px) {
+@media (min-width: 750px) and (max-width: 990px) {
   #open-side-nav {
     display: inline;
   }
