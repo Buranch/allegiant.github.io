@@ -83,7 +83,7 @@ input {
 
 #open-side-nav {
   display: none;
-  border: 0;
+  margin-left: 10px;
 }
 
 .connect-now-btn {
