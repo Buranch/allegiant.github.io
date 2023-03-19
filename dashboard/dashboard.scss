@@ -177,6 +177,24 @@ input {
   .user-name-txt {
     display: none;
   }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  .text-muted {
+    font-size: 12px !important;
+  }
+  .gradient-side {
+    .main-txt {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .bullets .question-wrapper .question {
+      font-size: 13px;
+    }
+  }
 }
 
 // Tablet
@@ -186,5 +204,21 @@ input {
   }
   .sidebar {
     display: none !important;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .text-muted {
+    font-size: 14px !important;
+  }
+  .main-txt {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .bullets .question {
+    font-size: 15px;
   }
 }
