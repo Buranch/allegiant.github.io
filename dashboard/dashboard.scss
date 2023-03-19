@@ -33,13 +33,30 @@ input {
 
 .sidebar {
   position: fixed;
-  top: 80px;
+  top: 50px;
   background: $gradient;
   bottom: 0;
   left: 0;
   z-index: 100;
   padding: 48px 0 0;
   box-shadow: inset -1px 0 0 rgb(0 0 0 / 10%);
+
+  .nav-item {
+    width: 85%;
+    margin-left: 21px;
+
+    img {
+      margin-right: 9px;
+    }
+
+    a {
+      padding: 13px 18px;
+    }
+
+    a.active {
+      background-color: #2e90fa;
+    }
+  }
 }
 
 .flex-1 {
