@@ -91,6 +91,7 @@ input {
   font-size: 11px;
   line-height: 20px;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .modal-dialog {
@@ -110,7 +111,7 @@ input {
 }
 
 .connect-now-btn {
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .modal-header {
@@ -143,8 +144,12 @@ input {
       margin-left: 11px;
     }
     .card-txt {
-      margin-left: 54px;
+      margin-left: 62px;
       display: block;
+    }
+
+    .card-subtitle {
+      font-weight: 400;
     }
   }
 }
@@ -166,7 +171,7 @@ input {
   .bullets .question-wrapper {
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 
     img {
       margin-right: 16px;
