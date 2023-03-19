@@ -1,1 +1,33 @@
 @use "../dashboard/dashboard.scss";
+
+.transfer-txt {
+  margin-top: 122px;
+
+  h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #101828;
+  }
+
+  p {
+    margin-right: 20%;
+    margin-left: 20%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+  }
+
+  .cancel-btn {
+    padding: 12px 20px 12px 20px;
+    background: white;
+    color: #1570ef;
+    border: 1px solid #d0d5dd;
+  }
+
+  .continue-btn {
+    padding: 12px 20px 12px 20px;
+    margin-left: 16px;
+  }
+}
