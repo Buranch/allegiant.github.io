@@ -105,6 +105,23 @@ input {
   background: linear-gradient(25.53deg, #0ba5ec 24.12%, #2e3192 95.96%);
   height: 80vh;
 }
+.gradient-side .main-txt {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+}
+.gradient-side .bullets .question-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.gradient-side .bullets .question-wrapper img {
+  margin-right: 16px;
+}
+.gradient-side .bullets .question-wrapper .question {
+  font-size: 20px;
+}
 
 @media screen and (max-width: 770px) {
   .user-name-txt {

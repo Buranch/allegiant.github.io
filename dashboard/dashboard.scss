@@ -112,6 +112,27 @@ input {
   padding: 60px;
   background: $gradient;
   height: 80vh;
+
+  .main-txt {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .bullets .question-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+    img {
+      margin-right: 16px;
+    }
+
+    .question {
+      font-size: 20px;
+    }
+  }
 }
 
 // Mobile
