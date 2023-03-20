@@ -213,5 +213,18 @@ input {
     font-size: 15px;
   }
 }
+.select-txt {
+  margin-bottom: 40px;
+}
+
+.dropdown button {
+  background: white;
+  color: gray;
+  width: 300px;
+  text-align: left;
+}
+.dropdown ul {
+  width: 300px;
+}
 
 /*# sourceMappingURL=styles.css.map */

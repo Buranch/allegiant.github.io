@@ -1,1 +1,18 @@
-@use "../dashboard/dashboard.scss"
+@use "../dashboard/dashboard.scss";
+
+.select-txt {
+  margin-bottom: 40px;
+}
+
+.dropdown {
+  button {
+    background: white;
+    color: gray;
+    width: 300px;
+    text-align: left;
+  }
+
+  ul {
+    width: 300px;
+  }
+}
