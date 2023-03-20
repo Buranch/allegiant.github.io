@@ -1,0 +1,47 @@
+@use "../dashboard/dashboard.scss";
+
+.transfer-txt {
+  margin-top: 122px;
+
+  h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #101828;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 18px;
+  }
+
+  p {
+    margin-right: 20%;
+    margin-left: 20%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+  }
+
+  .cancel-btn {
+    padding: 12px 20px 12px 20px;
+    background: white;
+    color: #1570ef;
+    border: 1px solid #d0d5dd;
+    width: 113px;
+    height: 50px;
+  }
+}
+
+.log-in-txt {
+  color: #2e90fa;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+// Mobile
+@media screen and (max-width: 770px) {
+  .transfer-txt p {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
