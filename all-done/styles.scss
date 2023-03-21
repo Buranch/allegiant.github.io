@@ -1,0 +1,112 @@
+@use "../dashboard/dashboard.scss";
+
+.transfer-txt {
+  margin-top: 72px;
+
+  h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #101828;
+  }
+
+  p {
+    margin-right: 20%;
+    margin-left: 20%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+  }
+
+  .cancel-btn {
+    padding: 12px 20px 12px 20px;
+    background: white;
+    color: #1570ef;
+    border: 1px solid #d0d5dd;
+    width: 200px;
+    height: 50px;
+  }
+
+  .continue-btn {
+    padding: 12px 20px 12px 20px;
+    margin-left: 16px;
+    width: 222px;
+    height: 50px;
+  }
+
+  .logos {
+    padding: 27px;
+    border-radius: 16px;
+    border: 1px solid #eaecf0;
+    box-shadow: 0px 12px 16px -4px rgb(16 24 40 / 8%),
+      0px 4px 6px -2px rgb(16 24 40 / 3%);
+  }
+  .dots {
+    color: #2e90fa;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .barclays {
+    padding-left: 60px;
+    padding-right: 59px;
+    width: 205px;
+  }
+}
+
+.mobile-dots {
+  display: none;
+}
+
+.button-wrapper {
+  margin-top: 40px;
+}
+// Mobile
+@media screen and (max-width: 770px) {
+  .transfer-txt {
+    .allegiant {
+      width: 130px !important;
+      padding: 14px;
+      border-radius: 16px;
+    }
+
+    .barclays {
+      padding: 16px;
+      padding-left: 30px;
+      padding-right: 27px;
+      width: 113px;
+    }
+    p {
+      margin-right: 10%;
+      margin-left: 10%;
+      font-size: 16px;
+    }
+
+    .dots {
+      display: none;
+    }
+
+    .mobile-dots {
+      display: block;
+      color: #2e90fa;
+      padding-right: 5px;
+      padding-left: 5px;
+      font-size: 9px;
+    }
+  }
+
+  .button-wrapper {
+    flex-direction: row-reverse;
+    gap: 18px;
+
+    button {
+      font-size: x-small;
+    }
+  }
+
+
+  .main-wrapper {
+    height: 120vh;
+  }
+}
