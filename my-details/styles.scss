@@ -5,7 +5,11 @@
   padding: 12px;
 }
 
-.btn {
+.form-switcher {
+  display: none;
+}
+
+.btn-light {
   padding: 12px 20px 12px 20px;
   border: 1px solid #d0d5dd;
   color: #1570ef;
@@ -17,5 +21,16 @@
   h6 {
     padding-bottom: 24px;
     padding-top: 30px;
+  }
+}
+
+// Mobile
+@media screen and (max-width: 770px) {
+  .form-switcher {
+    display: inline-flex;
+  }
+
+  .change-password-wrapper {
+    display: none;
   }
 }

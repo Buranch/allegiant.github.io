@@ -105,105 +105,139 @@
               style="padding-top: 42px; padding-left: 64px"
             >
               <h3>My Details</h3>
-              <h6>Personal Details</h6>
 
-              <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label"
-                  >First Name</label
+              <div
+                id="form-switcher"
+                class="btn-group form-switcher"
+                role="group"
+                aria-label="Basic radio toggle button group"
+              >
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="btnradio"
+                  id="personal-detail"
+                  autocomplete="off"
+                  checked
+                />
+                <label class="btn btn-outline-primary" for="btnradio2"
+                  >Personal Details</label
                 >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="formGroupExampleInput"
-                  placeholder="Enter First Name"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label"
-                  >Last Name</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="formGroupExampleInput2"
-                  placeholder="Enter Last Name"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label"
-                  >Email</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="formGroupExampleInput2"
-                  placeholder="Enter Email"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label"
-                  >Mobile Number</label
-                >
-                <input
-                  type="number"
-                  class="form-control"
-                  id="formGroupExampleInput2"
-                  placeholder="Enter Mobile Number"
-                />
-              </div>
-              <div class="form-check" style="margin-bottom: 17px">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="flexCheckDefault"
-                />
-                <label class="form-check-label" for="flexCheckDefault">
-                  No mobile phone number
-                </label>
-              </div>
 
-              <button class="btn btn-light">Update Changes</button>
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="btnradio"
+                  id="change-password"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-primary" for="btnradio3"
+                  >Change Password</label
+                >
+              </div>
+              <div class="personal-details-wrapper">
+                <h6>Personal Details</h6>
+
+                <div class="mb-3">
+                  <label for="formGroupExampleInput" class="form-label"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput"
+                    placeholder="Enter First Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput2" class="form-label"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput2"
+                    placeholder="Enter Last Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput2" class="form-label"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="formGroupExampleInput2"
+                    placeholder="Enter Email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput2" class="form-label"
+                    >Mobile Number</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="formGroupExampleInput2"
+                    placeholder="Enter Mobile Number"
+                  />
+                </div>
+                <div class="form-check" style="margin-bottom: 17px">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    No mobile phone number
+                  </label>
+                </div>
+
+                <button class="btn btn-light">Update Changes</button>
+              </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 change-password-wrapper">
               <h3 style="visibility: hidden">My Details</h3>
 
-              <h6 style="margin-top: 50px">Change Password</h6>
-              <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label"
-                  >Current Password</label
-                >
-                <input
-                  type="password"
-                  class="form-control"
-                  id="formGroupExampleInput"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label"
-                  >New Password</label
-                >
-                <input
-                  type="password"
-                  class="form-control"
-                  id="formGroupExampleInput2"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label"
-                  >Re-type password</label
-                >
-                <input
-                  type="password"
-                  class="form-control"
-                  id="formGroupExampleInput2"
-                />
-              </div>
+              <div>
+                <h6 style="margin-top: 50px">Change Password</h6>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput" class="form-label"
+                    >Current Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="formGroupExampleInput"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput2" class="form-label"
+                    >New Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="formGroupExampleInput2"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput2" class="form-label"
+                    >Re-type password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="formGroupExampleInput2"
+                  />
+                </div>
 
-              <button class="btn btn-light">Update Password</button>
-              <p style="margin: 0; visibility: hidden">
-                You are now being taken to the UK Credit website in order to
-              </p>
+                <button class="btn btn-light">Update Password</button>
+                <p style="margin: 0; visibility: hidden">
+                  You are now being taken to the UK Credit website in order to
+                </p>
+              </div>
             </div>
           </div>
         </main>
