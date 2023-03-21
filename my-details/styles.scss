@@ -1,0 +1,21 @@
+@use "../dashboard/dashboard.scss";
+
+.form-control {
+  width: 90%;
+  padding: 12px;
+}
+
+.btn {
+  padding: 12px 20px 12px 20px;
+  border: 1px solid #d0d5dd;
+  color: #1570ef;
+  background: white;
+  font-weight: 600;
+}
+
+.main-wrapper {
+  h6 {
+    padding-bottom: 24px;
+    padding-top: 30px;
+  }
+}
