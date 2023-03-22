@@ -59,6 +59,16 @@ input {
   }
 }
 
+.mobile-top-menu {
+  padding: 13px;
+  border-bottom: 1px solid #f2f4f7;
+  font-weight: 500;
+
+  img {
+    margin-right: 10px;
+  }
+}
+
 .flex-1 {
   flex: 1;
 }
@@ -227,6 +237,9 @@ input {
 
 // Tablet
 @media (min-width: 750px) and (max-width: 990px) {
+  .navbar-collapse {
+    display: none;
+  }
   #open-side-nav {
     display: inline;
   }

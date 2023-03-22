@@ -50,6 +50,15 @@ input {
   background-color: #2e90fa;
 }
 
+.mobile-top-menu {
+  padding: 13px;
+  border-bottom: 1px solid #f2f4f7;
+  font-weight: 500;
+}
+.mobile-top-menu img {
+  margin-right: 10px;
+}
+
 .flex-1 {
   flex: 1;
 }
@@ -198,6 +207,9 @@ input {
   }
 }
 @media (min-width: 750px) and (max-width: 990px) {
+  .navbar-collapse {
+    display: none;
+  }
   #open-side-nav {
     display: inline;
   }
