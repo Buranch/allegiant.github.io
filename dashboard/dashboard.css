@@ -177,7 +177,6 @@ input {
 .gradient-side .bullets .question-wrapper {
   display: flex;
   align-items: center;
-  margin-top: 20px;
 }
 .gradient-side .bullets .question-wrapper img {
   margin-right: 16px;
@@ -192,6 +191,10 @@ input {
 }
 .modal ul li {
   margin-bottom: 15px;
+}
+
+.user-name-txt {
+  color: black;
 }
 
 @media screen and (max-width: 770px) {
@@ -217,7 +220,7 @@ input {
     overflow: auto;
   }
 }
-@media (min-width: 750px) and (max-width: 990px) {
+@media (min-width: 770px) and (max-width: 990px) {
   .navbar-collapse {
     display: none;
   }
