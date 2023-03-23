@@ -50,6 +50,10 @@ input {
   background-color: #2e90fa;
 }
 
+.user-name-txt {
+  color: black;
+}
+
 .profile-dropdown {
   right: 12px !important;
   left: unset !important;
@@ -173,6 +177,7 @@ input {
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
+  margin-top: 30px;
 }
 .gradient-side .bullets .question-wrapper {
   display: flex;
@@ -207,6 +212,7 @@ input {
   .gradient-side .main-txt {
     font-size: 14px;
     line-height: 24px;
+    margin-top: 0;
   }
   .gradient-side .bullets .question-wrapper .question {
     font-size: 13px;
@@ -233,11 +239,15 @@ input {
   .text-muted {
     font-size: 14px !important;
   }
-  .main-txt {
+  .gradient-side {
+    padding-top: 10px;
+  }
+  .gradient-side .main-txt {
     font-size: 18px;
     line-height: 24px;
+    margin-top: 0;
   }
-  .bullets .question {
+  .gradient-side .bullets .question-wrapper .question {
     font-size: 15px;
   }
 }
